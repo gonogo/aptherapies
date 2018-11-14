@@ -7,9 +7,8 @@
 # Redirect rule example
 # For more information see:- https://www.netlify.com/docs/netlify-toml-reference/
 
-#[[redirects]]
-#  from = "/*"
-#  to = "/blog/:splat"
+# Redirect default Netlify subdomain to primary domain
+http://priceless-engelbart-ecb34d.netlify.com/* http://aptherapies.co.uk/:splat 301!
 
 # The default HTTP status code is 301, but you can define a different one e.g.
 # status = 302
