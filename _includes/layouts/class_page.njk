@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="title" content="{{ pagetitle }}">
+<meta name="robots" content="index, follow">
+<meta name="description" content="{{ page_desc }}">
+<meta name="lastmodifieddate" content="{{ mod_date }}">
+<meta name="keywords" content="{{ keywords }}">
+{% set css %}
+    {% include "assets/css/regular.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+
+<title>{{ pagetitle  }}</title>
+
+<script type="text/javascript" language="javascript">
+<!--
+
+{{ script }}
+
+</script>
+</head>
+
+<body>
+
+<div id="container"> 
+ 
+<div id="banner"><img src="/static/img/banner.jpg" alt=""></div> 
+<div id="main"> 
+<div id="menubar"><a href="index.html">HOME</a> &nbsp;  
+	| &nbsp;  <a href="/sports_massage.html">Sports Massage</a> &nbsp;  
+	| &nbsp;  <a href="/remedial_massage.html">Remedial Massage</a> &nbsp;  
+	| &nbsp;  <a href="/about_me.html">About Me</a> &nbsp;  
+	| &nbsp;  <a href="/contact_details.html">Contact Details</a> &nbsp;
+</div>
+<br />
+<div id="photo">
+<p><img src="/static/img/{{ pagephoto }}"> </p>
+</div>
+
+<div id="maintext">
+
+{{ layoutContent | safe }}
+
+<div id="footer">&copy; AP Therapies &nbsp;  2005-2015</div>
+
+<a href="http://www.statcounter.com/" target="_blank"><img src="http://c11.statcounter.com/counter.php?sc_project=1212516&amp;java=0&amp;security=27226d02&amp;invisible=1" alt="web site hit counter" border="0"></a> 
+
+</div>
+
+</body>
+</html>
+
+
+
+
+

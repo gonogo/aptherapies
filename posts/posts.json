@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/class_page.njk",
+  "permalink": "posts/{{ title | slug }}/index.html",
+  "tags": "post"
+}

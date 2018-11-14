@@ -1,0 +1,165 @@
+/**
+ * AP Therapies V2 -- 7 Sept 2009
+ **/
+
+html, textarea, body
+	{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	}
+
+body
+	{
+	text-align:center;
+	font-size: 12px;
+	margin-bottom: 20px;
+	background: #ffffff;
+	color:#fff;
+	background: #66ffff;	
+	}
+
+body img
+	{
+	x-display:none;
+	}
+
+div#container
+	{
+	width:700px;
+	padding:0px;
+	margin: 0px;
+	background:#ffffff;
+	border: solid 2px #cccccc;
+	margin: 0 auto;
+	}
+
+div#container img
+	{
+	}
+
+div#banner
+	{
+	img : display
+	background:#cccccc;
+	text-align:center;
+	padding:0px;
+	margin: 0px;
+	}
+
+div#main
+	{
+	background: #16267B;
+	height:550px;
+	}
+
+div#menubar
+	{
+	margin-left:15px;
+	margin-right:15px;
+	padding:5px;
+	padding-right:10px;
+	border-bottom: solid 1px #20A3F7;
+	text-align: right;
+	}
+div#container a
+	{
+	color:#ccc;
+	text-decoration:none;
+	}
+
+div#container a:hover
+	{
+	color: #fff;
+	}
+
+div#photo
+	{
+	clear:both;
+	float:left;
+	margin:4px;
+	margin-left:15px;
+	margin-right:2px;
+	padding:4px;
+	height:195px;
+	width:225px;
+	}
+div#photo img
+	{
+	border:none;
+	}
+
+
+div#maintext
+	{
+	float:right;
+	margin:4px;
+	margin-left:0px;
+	margin-right:15px;
+	padding:8px;
+	x-height:190px;
+	width:380px;
+	x-background:#000;
+	text-align:left;
+	}
+
+.leftcol
+	{
+	text-align:right;
+	font-weight:bold; 
+	}
+
+.small
+	{
+	font-size:85%;
+	}
+
+div#footer
+	{
+	background-image:url(images/footer_bg.jpg);
+	font-size:80%;
+	color:#bbb;
+	}
+
+
+h1
+	{
+	font-size:120%;
+	font-weight:bold;
+	}
+
+input
+	{
+	background-color:#bbb;
+	}
+
+textarea
+	{
+	background-color:#bbb;
+	}
+
+
+.formlabel
+	{
+	color:#fff;
+	font-size:90%;
+	text-align:right;
+	font-weight:bold;
+	vertical-align:top;
+	}
+
+.columntext
+	{
+	font-size:75%;
+	color:midnightblue;
+	}
+
+.button
+	{
+	background:#47479b;
+	color:white;
+	font-size:80%;
+	text-align:center;
+	font-weight:bold;
+	}
+
